@@ -1,15 +1,6 @@
 CFLAGS=-Wall -g
 
-all:
-	make ex1
-	make ex3
-	make ex4
-	make ex5
-	make ex6
-	make ex7
-	make ex8
-	make ex9
-
+all: ex1 ex3 ex4 ex5 ex6 ex7 ex8 ex9 ex10 ex11 
 clean:
 	rm -f ex1
 	rm -f ex3
@@ -19,3 +10,5 @@ clean:
 	rm -f ex7
 	rm -f ex8
 	rm -f ex9
+	rm -f ex10
+	rm -f ex11
